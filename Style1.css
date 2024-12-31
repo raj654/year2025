@@ -255,6 +255,8 @@ h1 {
   height: calc(100% - 40px);
   border: 2px solid #fff;
   box-shadow: -1px -1px 2px rgb(214,172,254),1px 1px 2px rgb(214,172,254),1px 1px 30px -1px rgb(214,172,254),2px 2px 8px rgba(0, 0, 0, 0.17);
+  box-sizing: border-box;
+  overflow: hidden;
 }
 #image-box2 img{
   width: 100%;
